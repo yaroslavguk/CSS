@@ -4,11 +4,14 @@
 }
   
 body {
+    width: 1170px;
+    display: inline;
     color: black;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px auto;
     overflow-x: hidden;
+    width: 100%;
 }   
 
 .container{
@@ -49,8 +52,7 @@ body {
     
 .banner-container{
   height: 500px;
-  background: url("../img/banner.jpg");
-  background-repeat: no-repeat;
+  background: url("../img/banner.jpg") no-repeat;
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
@@ -59,7 +61,7 @@ body {
 
 .influence-container{
   color: white;
-  margin-left:330px;
+  margin: 0 auto;
   align-self: flex-start;
   margin-top: 40px;
   width: 550px;
@@ -78,7 +80,7 @@ body {
 
 .button{
   align-self: flex-start;
-  margin-left: 480px;
+  margin: auto;
   margin-top: 40px;
   
 }
@@ -525,4 +527,5 @@ body {
   padding:20px;
   text-align: center;
 }
+          
           
