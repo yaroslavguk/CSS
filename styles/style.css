@@ -97,14 +97,14 @@ body {
 }
 
 .credibility-logos{
-  width: 100%;
+  
  
 }
 .wrapper-credibility-logos{
   background: url("../img/credibility-logos.jpg")no-repeat 0 0;
   height: 100px;
-  background-size: 100% 100%;
- 
+  background-position: center;
+  
 }  
 
 .aside-buttons li{
@@ -527,5 +527,6 @@ body {
   padding:20px;
   text-align: center;
 }
+          
           
           
